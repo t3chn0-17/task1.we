@@ -1,0 +1,156 @@
+* {
+	box-sizing: content-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+html {
+	width: 100%;
+	height: 100vh;
+}
+*/
+
+body {
+	width: 100%;
+	height: 100vh;
+
+	overflow-x: hidden;
+
+	color: white;
+
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: yellowgreen;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+	height: 54px;
+
+	padding: 12px 16px;
+
+	background-color: #222222;
+}
+
+.nav-bar span {
+	font-size: 32px;
+	font-weight: 800;
+
+	letter-spacing: 2px;
+}
+
+.nav-bar div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.hero-con {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 44px;
+
+	width: 100%;
+	height: 400px;
+
+	background-image: linear-gradient(135deg, cyan, yellowgreen);
+}
+
+.hero-con h1 {
+	font-size: 44px;
+}
+
+.hero-con p {
+	font-size: 20px;
+}
+
+.hero-con button {
+	font-size: 18px;
+	
+	padding: 8px 14px;
+
+	border-style: none;
+	border-radius: 6px;
+
+	background-color: rgb(60, 200, 200);
+
+	color: white;
+}
+
+.card-con {
+	width: 100%;
+	height: 400px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	width: 30%;
+	height: 40%;
+
+	border-radius: 16px;
+
+	background-color: #fff;
+
+	box-shadow: 2px 2px 6px black;
+
+	color: black;
+
+	cursor: pointer;
+	
+	padding: 12px;
+
+	position: relative;
+}
+
+.card-sp {
+	background-color: red;
+	color: white;
+
+	padding: 4px 8px;
+
+	border-radius: 12px;
+
+	position: absolute;
+	top: -16px;
+	right: -4px;
+}
+
+.help-btn {
+	display: inline-block;
+
+	width: 44px;
+	height: 44px;
+
+	position: fixed;
+	bottom: 12px;
+	right: 12px;
+
+	z-index: 20;
+
+	border-style: none;
+	border-radius: 50%;
+
+	color: white;
+	font-weight: 400;
+
+	background-color: #222222;
+}
