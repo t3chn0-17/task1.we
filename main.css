@@ -128,7 +128,7 @@ button {
 
 	background-color: #fff;
 
-	box-shadow: 2px 2px 12px 0px black;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.350);
 
 	color: black;
 
@@ -159,7 +159,7 @@ button {
 
 	position: absolute;
 	top: -16px;
-	right: -8px;
+	right: -16px;
 }
 
 .help-btn {
